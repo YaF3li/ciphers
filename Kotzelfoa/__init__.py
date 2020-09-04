@@ -8,8 +8,8 @@ class Code:
         self.vowels = "AEIOU"
         self.vowel_separator = 't'
         self.single_letter_indicator = 'p'
-        self.codeA = ["z", "sm", "sp", "g", "f", "v", "sh", "m", "sk", "b", "ch", "shk", "d", "jh", "j", "s", "sf", "tz", "st", "n", "h", "shl", "k", "th", "fl", "shp"]
-        self.codeB = ["o", "ail", "oi", "al", "i", "ai", "ar", "ia", "u", "or", "oil", "ol", "oe", "oa", "a", "er", "oal", "el", "il", "ir", "e", "ial", "oar", "oel", "iar", "ul"]
+        self.codeA = ["z", "sm", "sp", "g", "f", "v", "sh", "l", "sk", "b", "ch", "shk", "d", "jh", "j", "s", "sf", "tz", "st", "r", "h", "shl", "k", "th", "fl", "shp"]
+        self.codeB = ["o", "ain", "oi", "an", "i", "ai", "am", "ia", "u", "om", "oin", "on", "oe", "oa", "a", "em", "oan", "en", "in", "im", "e", "ian", "oam", "oen", "iam", "un"]
         self.codes = [self.codeA, self.codeB]
 
     def next_token(self, input, position, code):
